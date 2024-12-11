@@ -11,7 +11,7 @@ class Customer {
 public:
     std::string_view name{};
 
-    void buys(const Vegetable& vegetable) {
+    void buys(const Vegetable& vegetable) const {
         std::cout << name << " buys " << vegetable.name << " and pays " << vegetable.price << " euros." << std::endl;
     }
 };
