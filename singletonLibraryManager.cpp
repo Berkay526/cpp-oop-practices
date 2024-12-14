@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-// singleton library anager
+// singleton library manager
 class LibraryManager {
 // set private so that only one instance can be used
 private:
