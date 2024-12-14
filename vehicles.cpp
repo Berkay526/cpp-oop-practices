@@ -12,9 +12,7 @@ private:
 public:
     // declare the constructor function
     Vehicle(std::string m_name, std::string m_color, int m_age)
-     : m_name(m_name), 
-       m_color(m_color), 
-       m_age(m_age) {}
+        : m_name(m_name), m_color(m_color), m_age(m_age) {}
 
     // make const function (func doesn't modify the variables) so that it can access to both const and non-const variables
     void display() const {
