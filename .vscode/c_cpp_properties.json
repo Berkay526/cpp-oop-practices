@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe", // GCC'nin doğru yolunu kontrol edin
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c11", // C standardı (isteğe bağlı olarak c17 yapabilirsiniz)
+            "cppStandard": "c++20", // C++ standardını burada C++20 olarak belirtiyoruz
+            "intelliSenseMode": "windows-gcc-x64" // GCC için uygun mod
+        }
+    ],
+    "version": 4
+}
